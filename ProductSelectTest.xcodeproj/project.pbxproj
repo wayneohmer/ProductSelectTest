@@ -11,8 +11,6 @@
 		2B745BEF1FA261BE007FD4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B745BED1FA261BE007FD4A0 /* Main.storyboard */; };
 		2B745BF11FA261BE007FD4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B745BF01FA261BE007FD4A0 /* Assets.xcassets */; };
 		2B745BF41FA261BE007FD4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B745BF21FA261BE007FD4A0 /* LaunchScreen.storyboard */; };
-		2B745BFF1FA261BE007FD4A0 /* ProductSelectTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745BFE1FA261BE007FD4A0 /* ProductSelectTestTests.swift */; };
-		2B745C0A1FA261BE007FD4A0 /* ProductSelectTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745C091FA261BE007FD4A0 /* ProductSelectTestUITests.swift */; };
 		2B745C191FA26247007FD4A0 /* CDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745C171FA26247007FD4A0 /* CDesignableView.swift */; };
 		2B745C1A1FA26247007FD4A0 /* CDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745C181FA26247007FD4A0 /* CDesignableButton.swift */; };
 		2B745C1C1FA262AB007FD4A0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B745C1B1FA262AB007FD4A0 /* MainController.swift */; };
@@ -43,11 +41,7 @@
 		2B745BF31FA261BE007FD4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B745BF51FA261BE007FD4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B745BFA1FA261BE007FD4A0 /* ProductSelectTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductSelectTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B745BFE1FA261BE007FD4A0 /* ProductSelectTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSelectTestTests.swift; sourceTree = "<group>"; };
-		2B745C001FA261BE007FD4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B745C051FA261BE007FD4A0 /* ProductSelectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductSelectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B745C091FA261BE007FD4A0 /* ProductSelectTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSelectTestUITests.swift; sourceTree = "<group>"; };
-		2B745C0B1FA261BE007FD4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B745C171FA26247007FD4A0 /* CDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDesignableView.swift; sourceTree = "<group>"; };
 		2B745C181FA26247007FD4A0 /* CDesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDesignableButton.swift; sourceTree = "<group>"; };
 		2B745C1B1FA262AB007FD4A0 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				2B745BE81FA261BE007FD4A0 /* ProductSelectTest */,
-				2B745BFD1FA261BE007FD4A0 /* ProductSelectTestTests */,
-				2B745C081FA261BE007FD4A0 /* ProductSelectTestUITests */,
 				2B745BE71FA261BE007FD4A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,24 +103,6 @@
 				2B745BF51FA261BE007FD4A0 /* Info.plist */,
 			);
 			path = ProductSelectTest;
-			sourceTree = "<group>";
-		};
-		2B745BFD1FA261BE007FD4A0 /* ProductSelectTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				2B745BFE1FA261BE007FD4A0 /* ProductSelectTestTests.swift */,
-				2B745C001FA261BE007FD4A0 /* Info.plist */,
-			);
-			path = ProductSelectTestTests;
-			sourceTree = "<group>";
-		};
-		2B745C081FA261BE007FD4A0 /* ProductSelectTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B745C091FA261BE007FD4A0 /* ProductSelectTestUITests.swift */,
-				2B745C0B1FA261BE007FD4A0 /* Info.plist */,
-			);
-			path = ProductSelectTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B745BFF1FA261BE007FD4A0 /* ProductSelectTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B745C0A1FA261BE007FD4A0 /* ProductSelectTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
